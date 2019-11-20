@@ -1,0 +1,33 @@
+article{
+    text-align: center;
+    padding: 10px;
+    background: #969393;
+    color: #272424;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.76);
+    width: 15vw;
+    border-radius: 20px;
+    transition: 3s;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+article:hover{
+    transform: rotate(360deg);
+    border-radius: 70%;
+    background-color: black;
+    color: azure;
+}
+
+article:hover h3{
+    transition: 3s;
+    transform: rotate(-360deg);
+    color: beige;
+    text-shadow: black 2px 2px ;
+    font-size: 12px;
+}
+article:hover ul{
+    transition: 3s;
+    transform: scale(1.5);
+}
